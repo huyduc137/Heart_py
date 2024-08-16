@@ -1,4 +1,4 @@
-#yLinhHuong
+#Huy_dinh_nhan_sac
 import math
 from turtle import*
 speed(100000000000000000000000000000000000)
@@ -15,7 +15,7 @@ def heart2(a):
 penup()
 goto(0 , 0)
 pendown()
-for i in range(200):
+for i in range(3000):
     goto(heart1(i)*20 , heart2(i)*20)
     for i in range(2):
         color("#FF0000")
