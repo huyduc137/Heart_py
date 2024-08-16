@@ -15,16 +15,16 @@ def heart2(a):
 penup()
 goto(0 , 0)
 pendown()
-for i in range(2000):
+for i in range(200):
     goto(heart1(i)*20 , heart2(i)*20)
-    for i in range(5):
-        color("#FF6699")
+    for i in range(2):
+        color("#FF0000")
     goto(0 , 0)
 
 penup() 
-goto(-180 , -40)
+goto(-250 , -10)
 pendown()
 color("pink") 
-write("dodangieu" , font = ("Comic SanS MS" , 55 , "bold"))
+write("LINH HƯƠNG" , font = ("Comic SanS MS" , 55 , "bold"))
 hideturtle()
 done() #yLinhHuong
