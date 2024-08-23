@@ -25,6 +25,6 @@ penup()
 goto(-250 , -10)
 pendown()
 color("pink") 
-write("LINH HƯƠNG" , font = ("Comic SanS MS" , 55 , "bold"))
+write("HUY DUC DTRAI" , font = ("Comic SanS MS" , 55 , "bold"))
 hideturtle()
-done() #yLinhHuong
+done() 
